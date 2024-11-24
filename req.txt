@@ -2,3 +2,7 @@ pip install --upgrade pip setuptools wheel
 pip install pattern --no-deps
 pip install nltk
 pip install tqdm
+
+
+source CHAIR_VLM_EVALCODE/chair_venv/bin/activate
+python3 -c "import nltk; nltk.download('punkt_tab')"
